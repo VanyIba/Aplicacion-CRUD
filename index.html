@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación CRUD</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="Tit_conteiner">
+            <h1 class="titulo">PROYECTO 2 APLICACIÓN CRUD</h1>
+        </div>
+    </header>
+    <main>
+        <div class="lista_container">
+            <h1 class="tit_lista">Lista de Tareas para proyecto Marketing</h1>
+            <h2 class="descripcion_page">Ingresa cada una de las tareas pendientes del proyecto</h2>
+
+                <div class="content">
+                          <label>Nombre de la Tarea</label>
+                          <input type="text" name="Nombres" id="inputText">
+                          
+                          <label>Fecha de entrega</label>
+                          <input type="date" name="date" id="fecha"/>
+                        
+                          <label>Descripción de la Tarea</label>
+                          <textarea rows="5" name="message" id="description"></textarea>
+                            <button id="btn-save" onclick="guardar()">Guardar</button>                        
+                        
+
+                 </div>
+    </main>
+
+    <section>  
+            <div id="lista"></div>
+        </div>
+
+    </section>
+<footer>
+    <div class="recmor">
+        <h1 class="vany">Página creada para fines educativos | By Vania Ibarra</h1>
+        <div class="logos">
+           <a href="https://www.facebook.com/vania05" target="_blank"> <img class="facebook" src="./Assets/facebook-logo-3-1.png" alt=""></a>
+           <a href="https://www.instagram.com/aleibarra30/" target="_blank"> <img class="Instagram" src="./Assets/instagram-logo-1494D6FE63-seeklogo.com.png" alt=""></a>
+           <a href="https://www.linkedin.com/in/vania-ibarra/" target="_blank"> <img class="Linkedin" src="./Assets/LinkedIn_logo_initials.png" alt=""></a>
+           <a href="https://github.com/VanyIba" target="_blank"> <img class="Github" src="./Assets/kisspng-github-pages-logo-repository-fork-github-logo-1-magentys-5b69de71b51265.8586076615336648817417.png" alt=""></a>
+        </div>            
+    </div>
+</footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
